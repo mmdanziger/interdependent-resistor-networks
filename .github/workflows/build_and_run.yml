@@ -21,7 +21,8 @@ jobs:
           build-essential \
           cmake \
           libboost-all-dev \
-          libeigen3-dev
+          libeigen3-dev \
+          libcholmod-dev
 
     - name: Create build directory
       run: mkdir -p build
