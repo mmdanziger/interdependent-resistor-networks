@@ -22,7 +22,8 @@ jobs:
           cmake \
           libboost-all-dev \
           libeigen3-dev \
-          libcholmod-dev
+          libcholmod3 \
+          libsuitesparse-dev
 
     - name: Create build directory
       run: mkdir -p build
